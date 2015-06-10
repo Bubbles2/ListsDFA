@@ -56,6 +56,16 @@
         android:layout_alignLeft="@+id/list"
         android:layout_alignStart="@+id/list" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List 5 Recycle"
+        android:id="@+id/list5"
+        android:onClick="onSl5"
+        android:layout_below="@+id/list4"
+        android:layout_alignLeft="@+id/list4"
+        android:layout_alignStart="@+id/list4" />
+
 
 
 </RelativeLayout>

@@ -56,6 +56,11 @@ public class MyActivity extends Activity {
         Intent intent = new Intent(this, SimpleList4.class);
         startActivity(intent);
     }
+
+    public void onSl5(View view) {
+        Intent intent = new Intent(this, Recyc.class);
+        startActivity(intent);
+    }
     //
 
 

@@ -15,5 +15,8 @@
     <string name="title_activity_simple_list2">SimpleList2</string>
     <string name="title_activity_simple_list3">SimpleList3</string>
     <string name="title_activity_my">Test Lists</string>
+    <string name="title_activity_recycle_view">Recycle</string>
+    <string name="title_activity_recyc">Recyc</string>
+    title_activity_recyc
 
 </resources>
