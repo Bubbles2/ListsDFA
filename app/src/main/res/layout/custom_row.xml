@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtIcon"
+        android:src="@drawable/ic_number1"
+        android:layout_gravity="center_vertical" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         tools:text="Leader"
+         android:id="@+id/txtLeader"
+         android:layout_gravity="center_vertical"
+         android:paddingLeft="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Country"
+        android:id="@+id/txtCountry"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="7dp" />
+</LinearLayout>

@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity">
+
+    <TextView
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+   <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple List"
+        android:id="@+id/slist"
+        android:layout_marginTop="75dp"
+        android:onClick="onSl1"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/slist2"
+        android:layout_alignStart="@+id/slist2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Simple List 2 "
+        android:id="@+id/slist2"
+        android:onClick="onSl2"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_below="@+id/slist"
+        android:layout_toRightOf="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        android:id="@+id/list"
+        android:onClick="onSl3"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_below="@+id/slist2"
+        android:layout_alignLeft="@+id/slist2"
+        android:layout_alignStart="@+id/slist2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List 4 Adapter Custom Layout"
+        android:id="@+id/list4"
+        android:onClick="onSl4"
+        android:layout_below="@+id/list"
+        android:layout_alignLeft="@+id/list"
+        android:layout_alignStart="@+id/list" />
+
+
+
+</RelativeLayout>

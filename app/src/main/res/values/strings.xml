@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lists</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="Leaders">
+        <item>Mao</item>
+        <item>Thatcher</item>
+        <item>Stalin</item>
+    </string-array>
+
+    <string name="title_activity_simple_list1">SimpleList1</string>
+    <string name="title_activity_simple_list2">SimpleList2</string>
+    <string name="title_activity_simple_list3">SimpleList3</string>
+    <string name="title_activity_my">Test Lists</string>
+
+</resources>
