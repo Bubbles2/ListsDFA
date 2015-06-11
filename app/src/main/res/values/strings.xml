@@ -17,6 +17,6 @@
     <string name="title_activity_my">Test Lists</string>
     <string name="title_activity_recycle_view">Recycle</string>
     <string name="title_activity_recyc">Recyc</string>
-    title_activity_recyc
+    title_activity_recyc    <string name="title_activity_card_recyc">CardRecyc</string>
 
 </resources>

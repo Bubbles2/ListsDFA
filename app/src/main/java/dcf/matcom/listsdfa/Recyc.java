@@ -23,9 +23,9 @@ public class Recyc extends ActionBarActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recList);
         RecycAdapter adapter = new RecycAdapter(this, getData());
         recyclerView.setAdapter(adapter);
-        //recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
         // If orientation is vertical, spanCount is number of columns. If orientation is horizontal, spanCount is number of rows.
-        recyclerView.setLayoutManager(new StaggeredGridLayoutManager(4, StaggeredGridLayoutManager.VERTICAL));
+        //recyclerView.setLayoutManager(new StaggeredGridLayoutManager(4, StaggeredGridLayoutManager.VERTICAL));
 
     }
 

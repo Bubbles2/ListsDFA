@@ -61,6 +61,12 @@ public class MyActivity extends Activity {
         Intent intent = new Intent(this, Recyc.class);
         startActivity(intent);
     }
+
+    public void onSl6(View view) {
+        //
+        Intent intent = new Intent(this, CardRecyc.class);
+        startActivity(intent);
+    }
     //
 
 

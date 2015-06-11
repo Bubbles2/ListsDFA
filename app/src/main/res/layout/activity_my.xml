@@ -66,6 +66,16 @@
         android:layout_alignLeft="@+id/list4"
         android:layout_alignStart="@+id/list4" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List 6 Cards"
+        android:id="@+id/list6"
+        android:onClick="onSl6"
+        android:layout_below="@+id/list5"
+        android:layout_alignLeft="@+id/list5"
+        android:layout_alignStart="@+id/list5" />
+
 
 
 </RelativeLayout>

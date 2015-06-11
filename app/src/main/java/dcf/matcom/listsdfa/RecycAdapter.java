@@ -18,6 +18,7 @@ public class RecycAdapter extends RecyclerView.Adapter<RecycAdapter.MyViewHolder
     List<Information> data= Collections.emptyList();
     private LayoutInflater inflater;
     private Context context;
+    private boolean odd=true;
     public RecycAdapter(Context context, List<Information> data){
         this.context=context;
         inflater=LayoutInflater.from(context);
